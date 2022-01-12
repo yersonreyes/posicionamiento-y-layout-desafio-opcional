@@ -1,0 +1,20 @@
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "base/reset";
+
+@import "components/navbar";
+@import "components/buttons";
+
+@import "layout/header";
+@import "layout/hero";
+@import "layout/principal";
+@import "layout/titulo";
+@import "layout/conocernos";
+@import "layout/map";
+
+@import "pages/about";
+@import "pages/footer";
+@import "pages/home";
+
+@import "vendors/scss/bootstrap.scss";

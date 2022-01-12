@@ -1,0 +1,14 @@
+.button {
+  margin: 0;
+  border: 1px solid $color-quick-silver;
+  background-color: transparent;
+  font-family: $font-base;
+  color: $color-quick-silver;
+}
+
+.button.verde {
+  border: none;
+  background-color: $color-shiny-shamrock;
+  border: 1px solid $color-shiny-shamrock;
+  color: $color-white;
+}

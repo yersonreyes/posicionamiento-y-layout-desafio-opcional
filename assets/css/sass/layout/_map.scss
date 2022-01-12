@@ -1,0 +1,31 @@
+.mapa {
+  background: $color-blue-de-france;
+  height: 190px;
+  position: relative;
+}
+
+.map-mapimg {
+  height: 190px;
+  width: 376;
+  position: absolute;
+  right: 47px;
+  top: 20px;
+}
+
+.map-cafeimg {
+  height: 140px;
+  width: 80px;
+  position: absolute;
+  right: -47px;
+  top: 0;
+  background: url("/assets/img/img-3.png");
+  background-size: cover;
+  z-index: 1;
+}
+
+.imagen {
+  height: 230px;
+  width: 100%;
+  background: url("/assets/img/img-2.png");
+  background-size: cover;
+}

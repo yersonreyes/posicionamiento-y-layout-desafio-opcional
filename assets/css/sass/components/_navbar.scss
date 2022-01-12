@@ -1,0 +1,13 @@
+nav {
+  background-color: $color-white;
+}
+
+.font {
+  font-family: $font-base;
+  color: $color-quick-silver;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-quick-silver;
+  }
+}

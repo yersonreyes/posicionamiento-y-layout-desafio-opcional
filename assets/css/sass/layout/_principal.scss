@@ -1,0 +1,38 @@
+.principal {
+  height: 440px;
+  background: url(/assets/img/img-1.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.principal-status {
+  display: flex;
+  background: $color-white;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  &:last-child {
+    padding-right: 50px;
+  }
+}
+
+.principal-status-box {
+  font-family: $font-base;
+  max-width: 150px;
+  padding: 10px;
+
+  h4 {
+    margin: 0;
+    font-size: $font-xxl;
+  }
+
+  p {
+    margin: 0;
+    font-family: $font-base2;
+    font-size: $font-m;
+    font-weight: lighter;
+  }
+}

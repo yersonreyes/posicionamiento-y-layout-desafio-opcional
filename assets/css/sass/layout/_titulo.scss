@@ -1,0 +1,35 @@
+.titulo {
+  position: relative;
+  height: 440px;
+
+  h1 {
+    padding-top: 40px;
+    margin: 0;
+    font-family: $font-base;
+    font-size: $font-xxxl;
+  }
+  p {
+    margin-left: 48px;
+    font-family: $font-base2;
+    font-size: $font-l;
+    font-weight: lighter;
+  }
+}
+
+.titulo-caja {
+  height: 134px;
+  width: 134px;
+  background-color: $color-coral;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.titulo-caja2 {
+  height: 134px;
+  width: 134px;
+  background-color: $color-flame;
+  position: absolute;
+  bottom: 20px;
+  left: -20px;
+}
